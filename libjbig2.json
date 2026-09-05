@@ -1,0 +1,18 @@
+{
+    "name": "libjbig2",
+    "description": "JBIG2 image decoder",
+    "filters":["jbig2dec"],
+    "help": "This filter decodes standalone JBIG2 (ITU-T T.88) bi-level images using jbig2dec.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libjbig2.accessor",
+    "filter_source":{
+        "jbig2dec" : "dec_jbig2.c"
+    },
+    "extension":{
+      "jb2" : "img",
+      "jbig2" : "img"
+    },
+    "licence_required":false
+}
