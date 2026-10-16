@@ -14,6 +14,10 @@
       "jb2" : "img",
       "jbig2" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "expired",
+        "note": "JBIG2 (ITU-T T.88)",
+        "checked": "2026-10-16"
+    }
 }
